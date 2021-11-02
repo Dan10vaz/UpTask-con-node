@@ -1,0 +1,25 @@
+{
+    "name": "uptask",
+    "version": "1.0.0",
+    "description": "Proyecto Uptask con Node y MVC",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dan10vaz/UpTask-con-node.git"
+    },
+    "author": "Daniel Cristopher Vazquez Ayala",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dan10vaz/UpTask-con-node/issues"
+    },
+    "homepage": "https://github.com/Dan10vaz/UpTask-con-node#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
