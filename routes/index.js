@@ -9,8 +9,8 @@ module.exports = function() {
     //Ruta para el home
     router.get('/', proyectosController.proyectosHome);
     router.get('/nosotros', (request, response) => {
-        response.send('Nosotros');
-    });
+        response.render('nosotros')
+    })
     return router;
 
 }
