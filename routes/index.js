@@ -8,9 +8,6 @@ const proyectosController = require('../controllers/proyectosController')
 module.exports = function() {
     //Ruta para el home
     router.get('/', proyectosController.proyectosHome);
-    router.get('/nosotros', (request, response) => {
-        response.render('nosotros')
-    })
     return router;
 
 }
